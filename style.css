@@ -83,3 +83,26 @@ p {
 .img-fluid {
   width: 100%;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .about-paragraphs {
+    padding: 012px;
+  }
+  .homepage-image {
+    display: none;
+  }
+  .email-link {
+    font-size: 24px;
+  }
+}
